@@ -174,7 +174,7 @@ T add(const T& arg1, const T& arg2) {
 void template_test() {
     auto r1 = add(1, 2);
     // tohle se nam nezkompiluje, protoze my_class nema operator +
-    auto r2 = add(my_class{"asdf"}, my_class{"asdf"});
+    //auto r2 = add(my_class{"asdf"}, my_class{"asdf"});
 }
 
 // jeste par zbylych prikladu, co se jinam nevesly
